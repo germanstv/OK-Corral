@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/fuentes/Fuentes/slick-1.8.1/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/fuentes/Fuentes/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" />
+    <script type="text/javascript" src="/fuentes/Fuentes/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+    <meta charset="UTF-8">
+    <title>OK-Corral Burger & Chophouse</title>
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-left"></div>
+        <div class="logo-right"></div>
+        <h1>O . K - C O R R A L</h1>
+        <h3 id="titulo">Burger & Chophouse</h3>
+        <nav>
+            <ul>
+                <li><a href="#"><span class="inicio-menu-contacto">Inicio</span></a></li>
+                <li><a href="#"><span class="inicio-menu-contacto">Menú</span></a></li>
+                <li><a href="#"><span class="inicio-menu-contacto">Contacto</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slider">
+        <div><img src="/imagenes/WhatsApp Image 2023-02-16 at 6.08.30 PM (5).jpeg"></div>
+        <div><img src="/imagenes/logohd negro.png"></div>
+        <div><img src="/imagenes/WhatsApp Image 2023-02-23 at 10.57.39 PM.jpeg"></div>
+        <div><img src="/imagenes/Inside the Palace on Whiskey Row_ (1).jpg"></div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <h2>Bienvenidos</h2>
+            <p>Disfruta de nuestras deliciosas hamburguesas y cortes de carne al estilo del oeste.</p>
+        </section>
+
+        <body class="menu">
+            <h2>Menú</h2>
+            <div class="menu-item">
+                <img src="/imagenes/WhatsApp Image 2023-02-16 at 6.08.30 PM (5).jpeg" alt="Smash Burger" width="250px"
+                    height="300px">
+                <h3>Smash Burger</h3>
+                <p>Our signature burger. Two smashed beef patties, melted cheddar cheese, lettuce, tomato, pickles, and
+                    our secret sauce.</p>
+                <ul>
+                    <li>Add bacon +$2.00</li>
+                    <li>Add fried egg +$1.50</li>
+                    <li>Add onion rings +$2.50</li>
+                </ul>
+            </div>
+
+            <div class="menu-item">
+                <img src="/imagenes/WhatsApp Image 2023-02-16 at 6.08.30 PM (5).jpeg" alt="Smash Burger" width="250px"
+                    height="300px">
+
+                <h3>Butifarra Burger</h3>
+                <p>A taste of Spain in a burger. A juicy pork sausage patty, grilled onions, roasted red peppers, and
+                    our special garlic aioli sauce.</p>
+            </div>
+        </body>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.slider').slick({
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    dots: true,
+                    arrows: false
+                });
+            });
+        </script>
+</body>
